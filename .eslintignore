@@ -1,0 +1,7 @@
+build
+node_modules
+logs
+coverage
+
+# Ignore shadcn components
+app/components/ui/*

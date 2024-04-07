@@ -21,7 +21,34 @@ module.exports = {
   },
 
   // Base config
-  extends: ["eslint:recommended"],
+  extends: ["eslint:recommended", "prettier"],
+
+  rules: {
+    "no-duplicate-imports": "error",
+    "no-self-compare": "error",
+    "no-unreachable-loop": "error",
+    "no-use-before-define": "error",
+    "require-atomic-updates": "error",
+    camelcase: "error",
+    "default-case": "error",
+    "default-case-last": "error",
+    "default-param-last": "error",
+    "dot-notation": "error",
+    eqeqeq: "error",
+    "func-name-matching": "error",
+    "no-alert": "error",
+    "no-console": "error",
+    "no-else-return": "error",
+    "no-empty-function": "error",
+    "no-useless-return": "error",
+    "no-var": "error",
+    "object-shorthand": "error",
+    "prefer-const": "error",
+    "prefer-destructuring": "error",
+    "prefer-object-spread": "error",
+    "prefer-template": "error",
+    "require-await": "error",
+  },
 
   overrides: [
     // React
@@ -34,6 +61,9 @@ module.exports = {
         "plugin:react-hooks/recommended",
         "plugin:jsx-a11y/recommended",
       ],
+      rules: {
+        "react/prop-types": "off",
+      },
       settings: {
         react: {
           version: "detect",

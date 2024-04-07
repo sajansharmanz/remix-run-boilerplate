@@ -1,3 +1,5 @@
+Please note this is an unfinished project. PRs are welcome, but I don't plan on investing much time on here. It was just to learn some Remix Run.
+
 # Welcome to Remix + Vite!
 
 📖 See the [Remix docs](https://remix.run/docs) and the [Remix Vite docs](https://remix.run/docs/en/main/future/vite) for details on supported features.

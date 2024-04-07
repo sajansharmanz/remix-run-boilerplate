@@ -19,14 +19,24 @@
     "target": "ES2022",
     "strict": true,
     "allowJs": true,
+    "checkJs": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnusedLabels": false,
+    "allowUnreachableCode": false,
+    "allowImportingTsExtensions": true,
     "baseUrl": ".",
     "paths": {
       "~/*": ["./app/*"]
     },
-
     // Vite takes care of building everything, not tsc.
     "noEmit": true
-  }
+  },
+  "exclude": ["node_modules"]
 }

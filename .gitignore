@@ -1,5 +1,10 @@
 node_modules
-
-/.cache
-/build
+logs
+coverage
+build
+dist
+.cache
 .env
+!.env.exmaple
+.DS_Store
+mydatabase.db
